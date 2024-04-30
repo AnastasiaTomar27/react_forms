@@ -25,7 +25,7 @@ export default function Lomake5() {
 
     function handleSubmit(event) {
         event.preventDefault();
-        alert("Harrastukset: " + hobbies.join(", "));
+        alert("Har " + hobbies.join(", "));
     };
 
     return (
